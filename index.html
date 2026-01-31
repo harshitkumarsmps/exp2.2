@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Filter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="app">
+    <h1>Product Filter</h1>
+
+    <div class="filter-bar">
+      <label for="filter">Filter by:</label>
+      <select id="filter">
+        <option value="all">All Products</option>
+        <option value="electronics">Electronics</option>
+        <option value="clothing">Clothing</option>
+      </select>
+    </div>
+
+    <div class="grid" id="productGrid">
+      <!-- Product cards inserted by JS -->
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
